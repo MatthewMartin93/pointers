@@ -15,7 +15,7 @@ void mult(int &x){
     x = x * 2;
 }
 int random(int x){
-    int randNum = rand() % 10;
+    int randNum = (rand() % 10) + 1;
     return x + randNum;
 }
 void vec(vector<int> &x){
